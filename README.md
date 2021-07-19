@@ -1,6 +1,6 @@
 # PX Blue themes for Storybook applications
 [![](https://img.shields.io/circleci/project/github/pxblue/storybook-themes/master.svg?style=flat)](https://circleci.com/gh/pxblue/storybook-themes/tree/master)
-![npm](https://img.shields.io/npm/v/@pxblue/storybook-themes?label=%40pxblue%2Fstorybook-themes)
+[![](https://img.shields.io/npm/v/@pxblue/storybook-themes.svg?label=@pxblue/storybook-themes&style=flat)](https://www.npmjs.com/package/@pxblue/storybook-themes)
 
 This package contains theming support for [Storybook](https://storybook.js.org/) applications built using Angular or React. It is primarily used to give these applications a PX Blue look and feel. Integrating this theme into your storybook application will change the appearance of the storybook container and any Markdown notes found within the `@storybook/addon-notes` add-on.
 
