@@ -32,14 +32,6 @@ export const bluiTheme = create({
     inputTextColor: colors.black[500],
     inputBorderRadius: 4,
 
-    /*
-    // This section needs to be added within individual storybook applications.
-
-    brandTitle: 'Brightlayer UI Angular Component Library',
-    brandImage: 'https://brightlayer-ui.github.io/static/media/brightlayer-ui.d5fa6462.svg',
-    brandUrl: 'https://brightlayer-ui.github.io',
-     */
-
     // This section can be used to apply classes to our Markdown documents.
     addonNotesTheme: {
         a: {

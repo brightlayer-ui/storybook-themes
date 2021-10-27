@@ -1,4 +1,4 @@
-## v1.1.0 (Not yet published)
+## v1.1.0-beta.0 (Not yet published)
 
 ### Changed
 
