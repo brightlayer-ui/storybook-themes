@@ -24,7 +24,7 @@ jobs:
                         echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
                         echo "//registry.yarnpkg.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
             -   run:
-                    name: Publish @pxblue/storybook-themes
+                    name: Publish @brightlayer-ui/storybook-themes
                     command:  |
                         yarn publish:package -b $CIRCLE_BRANCH
 
@@ -37,9 +37,9 @@ jobs:
             -   attach_workspace:
                     at: .
             -   run:
-                    name: Tag @pxblue/storybook-themes
+                    name: Tag @brightlayer-ui/storybook-themes
                     command:  |
-                        yarn tag:package -b $CIRCLE_BRANCH
+                        yarn tag:package -b $CIRCLE_BRANCH -s -blui-storybook-themes
 
 workflows:
     version: 2

@@ -1,7 +1,7 @@
 import { create } from '@storybook/theming/create';
-import * as colors from '@pxblue/colors';
+import * as colors from 'brightlayer-ui/colors';
 
-export const pxblueTheme = create({
+export const bluiTheme = create({
     base: 'light',
 
     colorPrimary: colors.blue[500],
@@ -31,14 +31,6 @@ export const pxblueTheme = create({
     inputBorder: colors.gray[100],
     inputTextColor: colors.black[500],
     inputBorderRadius: 4,
-
-    /*
-    // This section needs to be added within individual storybook applications.
-
-    brandTitle: 'PX Blue Angular Component Library',
-    brandImage: 'https://pxblue.github.io/static/media/pxblue.d5fa6462.svg',
-    brandUrl: 'https://pxblue.github.io',
-     */
 
     // This section can be used to apply classes to our Markdown documents.
     addonNotesTheme: {
