@@ -1,5 +1,5 @@
 import { create } from '@storybook/theming/create';
-import * as colors from 'brightlayer-ui/colors';
+import * as colors from '@brightlayer-ui/colors';
 
 export const bluiTheme = create({
     base: 'light',
