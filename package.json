@@ -25,11 +25,11 @@
         "brightlayer-ui"
     ],
     "devDependencies": {
-        "@brightlayer-ui/colors": "latest",
+        "@brightlayer-ui/colors": "^3.0.0",
         "@storybook/theming": "^5.3.13"
     },
     "peerDependencies": {
-        "@brightlayer-ui/colors": "latest",
+        "@brightlayer-ui/colors": "^3.0.0",
         "@storybook/theming": "^5.3.13"
     },
     "files": [

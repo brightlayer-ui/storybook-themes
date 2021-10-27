@@ -41,7 +41,7 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@brightlayer-ui/colors@latest":
+"@brightlayer-ui/colors@^3.0.0":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@brightlayer-ui/colors/-/colors-3.0.1.tgz#f085acf6b6b4266a01798c78bc25841d15e44b3e"
   integrity sha512-AE9F6FN1EQWMoqFTak6q8MN3wg9et2u2SUs6HjYhcS3GVSHjMWVSsuJZ2aD5Lu9409Gfi6pBHDWsJZ5PyeLsdQ==
