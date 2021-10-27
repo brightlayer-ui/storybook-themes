@@ -1,35 +1,35 @@
 {
-    "name": "@pxblue/storybook-themes",
-    "author": "PX Blue <pxblue@eaton.com>",
+    "name": "@brightlayer-ui/storybook-themes",
+    "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
     "license": "BSD-3-Clause",
     "version": "1.1.0",
-    "description": "Storybook theme for PX Blue documentation",
+    "description": "Storybook theme for Brightlayer UI documentation",
     "main": "index.js",
     "types": "index.d.ts",
     "scripts": {
         "test": "bash ./scripts/buildTest.sh",
-        "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish",
-        "tag:package": "npx -p @pxblue/tag pxb-tag"
+        "publish:package": "set npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
+        "tag:package": "npx -p @brightlayer-ui/tag blui-tag"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/pxblue/storybook-themes.git"
+        "url": "git+https://github.com/brightlayer-ui/storybook-themes.git"
     },
     "bugs": {
-        "url": "https://github.com/pxblue/storybook-themes/issues"
+        "url": "https://github.com/brightlayer-ui/storybook-themes/issues"
     },
-    "homepage": "https://github.com/pxblue/storybook-themes/tree/master",
+    "homepage": "https://github.com/brightlayer-ui/storybook-themes/tree/master",
     "keywords": [
         "storybook",
         "theme",
-        "pxblue"
+        "brightlayer-ui"
     ],
     "devDependencies": {
-        "@pxblue/colors": "^2.0.0",
+        "@brightlayer-ui/colors": "latest",
         "@storybook/theming": "^5.3.13"
     },
     "peerDependencies": {
-        "@pxblue/colors": "^2.0.0",
+        "@brightlayer-ui/colors": "latest",
         "@storybook/theming": "^5.3.13"
     },
     "files": [
