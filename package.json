@@ -2,7 +2,7 @@
     "name": "@brightlayer-ui/storybook-themes",
     "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
     "license": "BSD-3-Clause",
-    "version": "1.1.0-beta.1",
+    "version": "1.1.0",
     "description": "Storybook theme for Brightlayer UI documentation",
     "main": "index.js",
     "types": "index.d.ts",
